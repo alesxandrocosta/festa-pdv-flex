@@ -5,7 +5,7 @@ import {
   Home, 
   Grid, 
   Calendar, 
-  Cash, 
+  DollarSign, 
   Settings, 
   User,
   Clock,
@@ -51,7 +51,7 @@ const menuItems = [
   {
     title: "Caixa/PDV",
     url: "/pos",
-    icon: Cash,
+    icon: DollarSign,
   },
   {
     title: "Aluguel",

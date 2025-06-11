@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Cash, Grid, Calendar, User } from 'lucide-react';
+import { DollarSign, Grid, Calendar, User } from 'lucide-react';
 
 export const Dashboard = () => {
   // Dados mockados para demonstração
@@ -27,7 +26,7 @@ export const Dashboard = () => {
             <CardTitle className="text-sm font-medium">
               Vendas Hoje
             </CardTitle>
-            <Cash className="h-4 w-4 text-muted-foreground" />
+            <DollarSign className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">
